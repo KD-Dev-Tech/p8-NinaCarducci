@@ -6,6 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+/* Ajout d'une hauteur et largeur pour les images  */
 img {
 	width: 100%;
 	height: 100%;
@@ -71,7 +72,7 @@ img {
 	margin: 0 20px;
 	z-index: 0;
 }
-
+/* Ajout d'un cursor pointer */
 .picture img {
 	width: 100%;
 	object-fit: cover;
@@ -79,7 +80,8 @@ img {
 	cursor: pointer;
 }
 #about-me {
-	flex: 2
+	flex: 2;
+	width: 100%;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -105,6 +107,7 @@ img {
 .gallery .nav {
 	justify-content: center;
 }
+/* Changement du background-color */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #5F5A25;
